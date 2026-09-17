@@ -1,0 +1,68 @@
+﻿// Cuisine categories confirmed directly from the MySQL database
+// Each cuisine maps to a representative dish keyword that produces real results in menu_items
+export const CUISINES = [
+  {
+    id: 'biryani',
+    name: 'Biryani',
+    keyword: 'biryani',
+    subtitle: 'Dum Biryanis & Rice',
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=500&auto=format&fit=crop&q=80',
+    popularItem: 'Hyderabadi Dum Biryani',
+  },
+  {
+    id: 'north-indian',
+    name: 'North Indian',
+    keyword: 'paneer',
+    subtitle: 'Paneer, Dals & Curries',
+    imageUrl: 'https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=500&auto=format&fit=crop&q=80',
+    popularItem: 'Paneer Butter Masala',
+  },
+  {
+    id: 'pizzas',
+    name: 'Pizzas',
+    keyword: 'pizza',
+    subtitle: 'Cheesy & Crusty Pies',
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=80',
+    popularItem: 'Cheese Burst Pizza',
+  },
+  {
+    id: 'south-indian',
+    name: 'South Indian',
+    keyword: 'dosa',
+    subtitle: 'Crisp Dosas & Idlis',
+    imageUrl: 'https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=500&auto=format&fit=crop&q=80',
+    popularItem: 'Masala Dosa',
+  },
+  {
+    id: 'chinese',
+    name: 'Chinese',
+    keyword: 'noodles',
+    subtitle: 'Wok Noodles & Gravies',
+    imageUrl: 'https://images.unsplash.com/photo-1585032226651-759b368d7246?w=500&auto=format&fit=crop&q=80',
+    popularItem: 'Hakka Noodles',
+  },
+  {
+    id: 'fast-food',
+    name: 'Fast Food',
+    keyword: 'burger',
+    subtitle: 'Burgers, Wraps & Bites',
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&auto=format&fit=crop&q=80',
+    popularItem: 'Crispy Veg Burger',
+  },
+  {
+    id: 'desserts',
+    name: 'Desserts',
+    keyword: 'cake',
+    subtitle: 'Cakes & Sweet Delights',
+    imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&auto=format&fit=crop&q=80',
+    popularItem: 'Choco Irish Cake',
+  },
+  {
+    id: 'tandoor',
+    name: 'Tandoor & Kebabs',
+    keyword: 'tikka',
+    subtitle: 'Charred Tikkas & Grills',
+    imageUrl: 'https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?w=500&auto=format&fit=crop&q=80',
+    popularItem: 'Chicken Tikka',
+  },
+];
