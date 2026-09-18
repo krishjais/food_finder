@@ -9,7 +9,8 @@
     "test": "node --test",
     "migrate:lucknow": "node scripts/migrateLucknowSchema.js",
     "sync:lucknow": "node scripts/syncLucknowCatalog.js",
-    "export:db": "node scripts/exportDatabase.js"
+    "export:db": "node scripts/exportDatabase.js",
+    "import:db": "node scripts/importDatabase.js"
   },
   "keywords": [
     "food-finder",
